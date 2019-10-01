@@ -1,7 +1,7 @@
 var axios  = require('axios');
 var toJSON = require('xml2js').parseString;
 
-var url = process.env.MEDIUM_FEED ||'https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss';
+var url = process.env.MEDIUM_FEED ||'http://3.120.187.86.xip.io/feed';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
