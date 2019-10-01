@@ -1,5 +1,5 @@
 ---
 layout: layouts/base.njk
-title: Новини Украины
+title: 
 ---
 <div class="grid">{% for item in medium.posts %}<div class="col box"><a class="grid-item" href="/{{ item.path }}">{{ item['content:encoded'] | safe }}<div class="grid-item-content"><div class="date-title-home"> {{ item.pubDate | date }}</div><h2>{{ item.title }}</h2></div><div class="gradient"></div></a></div>{% endfor %}</div>
