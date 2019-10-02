@@ -182,3 +182,6 @@ h2 {
    display: none;
 }
 
+.box p {
+  font-size: 0;
+}
